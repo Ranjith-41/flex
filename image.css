@@ -1,0 +1,31 @@
+body{
+    background-color: darkslategray;
+    font-family: "Playwrite NO", cursive;
+    text-align: center;
+}
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+.container div{
+    padding: 10px;
+    flex-basis:20%;
+}
+.item img{
+   height: 400px;
+   width: 550px;
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+h1{
+    color:lightgray;
+}
+h2{
+    color:darkgrey;
+}
+.title{ 
+    text-shadow: 2px 2px 8px lime;
+}
